@@ -41,3 +41,92 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# Dependencies
+/.pub-cache/
+/build/
+/flutter/.pub-cache/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# Dart Server
+/bin/
+/.web/
+
+# Flutter/Dart/Pub
+.dart_tool/
+.packages
+.pub/
+.idea/
+.vscode/
+*.iml
+
+# Android
+/android/app/src/main/res/drawable-*/ic_launcher.png
+/android/app/src/main/res/mipmap-*/ic_launcher.png
+/android/app/src/main/res/mipmap-*/ic_launcher_round.png
+/android/.gradle/
+.android/
+app-debug.apk
+app-release.apk
+
+# iOS
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Pods/
+/ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods
+ios/.symlinks
+/ios/Runner/Info.plist
+/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+DerivedData/
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.hmap
+*.ipa
+
+# macOS
+/macos/Flutter/ephemeral/
+.macos
+
+# Web
+/web/.firebase/
+build/web
+
+# Logs
+*.log
+
+# Environment variables and secrets
+.env
+*.key
+supabase_credentials.json
+
+# IDE-specific
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Local configuration
+local.properties
+
+# Test coverage
+coverage/
+
+# Miscellaneous
+*.bak
+*.tmp
