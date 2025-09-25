@@ -1,9 +1,52 @@
+name: invoice_generator
+description: A simple invoice generator micro-SaaS for freelancers and small businesses.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
+
+  # State Management
+  provider: ^6.1.0
+
+  # Supabase Integration
   supabase_flutter: ^2.0.0
+
+  # PDF Generation
   pdf: ^3.10.0
   printing: ^5.12.0
+
+  # File Handling
   file_picker: ^6.0.0
+
+  # Paystack Payments
   flutter_paystack_plus: ^1.0.7
-  provider: ^6.1.0
+
+  # Environment Variables
+  flutter_dotenv: ^5.1.0
+
+  # Optional: For better form handling (if needed)
+  # flutter_form_builder: ^9.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting and Analysis
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  # Optional: Add fonts if customized
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: assets/fonts/Roboto.ttf
